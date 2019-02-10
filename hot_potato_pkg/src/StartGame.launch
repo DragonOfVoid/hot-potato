@@ -1,0 +1,14 @@
+<launch>
+ <node name="Player1" pkg="hot_potato_pkg" args="1" type="player" output="screen"/>
+ <node name="Player2" pkg="hot_potato_pkg" args="2" type="player" output="screen"/>
+ <node name="Player3" pkg="hot_potato_pkg" args="3" type="player" output="screen"/>
+ <node name="Player4" pkg="hot_potato_pkg" args="4" type="player" output="screen"/>
+ <node name="Player5" pkg="hot_potato_pkg" args="5" type="player" output="screen"/>
+ <node name="Player6" pkg="hot_potato_pkg" args="6" type="player" output="screen"/>
+ <node name="Player7" pkg="hot_potato_pkg" args="7" type="player" output="screen"/>
+ <node name="Player8" pkg="hot_potato_pkg" args="8" type="player" output="screen"/>
+ <node name="Player9" pkg="hot_potato_pkg" args="9" type="player" output="screen"/>
+ <node name="Player10" pkg="hot_potato_pkg" args="10" type="player" output="screen"/>
+ 
+ <node name="ball" pkg="hot_potato_pkg" type="ball" output="screen"/>
+</launch>
